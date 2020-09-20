@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/image1"
+                android:scaleType="centerCrop"
+                android:src="@drawable/lapki1"
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:layout_marginBottom="15dp">
+
+            </ImageView>
+
+            <TextView
+                android:id="@+id/texthead"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/calend"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+
+                android:fontFamily="@font/aclonica"
+                android:text="Studies that we deserve"
+                android:textColor="@android:color/white"
+                android:textSize="25sp" />
+
+            <LinearLayout
+                android:id="@+id/calend"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginLeft="8dp"
+                android:layout_marginBottom="8dp"
+                android:layout_alignBottom="@id/image1">
+
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:src="@drawable/calendar">
+
+                </ImageView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/image1"
+                    android:layout_marginStart="4dp"
+                    android:fontFamily="@font/stoke_light"
+                    android:text="20-09-2020"
+                    android:textColor="@android:color/white"
+                    android:textSize="14sp"/>
+
+            </LinearLayout>
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/image1"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="8dp"
+            android:fontFamily="@font/stoke_light"
+            android:lineSpacingExtra="6sp"
+            android:text="In Japan, Junior high school students conduct &quot;research on a free topic&quot; in the summer, and in a neighboring school, a boy posted a study of cat pads on the paws, dividing them by shape, degree of elasticity, pinkness, softness and friendliness of the cat, accompanied by photos of the paws of all local cats."
+            android:textAlignment="viewStart"
+            android:textColor="@android:color/black"
+            android:textSize="14sp">
+        </TextView>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/line1"
+            >
+
+        </ImageView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/image1"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="7dp"
+            android:fontFamily="@font/aclonica"
+            android:text="Cats in Japanese culture"
+            android:textColor="@android:color/black"
+            android:textSize="20sp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="8dp"
+            android:layout_marginBottom="8dp">
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:src="@drawable/calendar">
+
+            </ImageView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/image1"
+                android:layout_marginStart="4dp"
+                android:fontFamily="@font/stoke_light"
+                android:text="15-07-2019"
+                android:textColor="@android:color/black"
+                android:textSize="14sp"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/image1"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="15dp"
+            android:fontFamily="@font/stoke_light"
+            android:lineSpacingExtra="6sp"
+            android:text="«People get dogs, and cats get people. …»"
+            android:textAlignment="viewStart"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:textSize="14sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/image1"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="@font/stoke_light"
+            android:lineSpacingExtra="6sp"
+            android:text="George Mikesh (English humorist writer)"
+            android:textAlignment="viewStart"
+            android:textColor="@android:color/black"
+            android:textSize="14sp"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/image1"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="5dp"
+            android:fontFamily="@font/stoke_light"
+            android:lineSpacingExtra="6sp"
+            android:text="Cats are amazing and unpredictable creatures. At all times, they have had a special status in many cultures, and Japanese culture is no exception."
+            android:textAlignment="viewStart"
+            android:textColor="@android:color/black"
+            android:textSize="14sp"/>
+
+        <ImageView
+            android:src="@drawable/neko"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:scaleType="centerCrop"
+            android:layout_marginRight="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginBottom="3dp">
+
+        </ImageView>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/image1"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="5dp"
+            android:fontFamily="@font/stoke_light"
+            android:lineSpacingExtra="6sp"
+            android:text="In Japan, cats appeared after 700 ad. on merchant ships from China, arriving at the ports Of the land of the rising sun, cats often lived. However, they were taken to ships not for sale, but to protect the goods from rodents that live in the holds. And, apparently, the cats, like all full-fledged crew members, also did not neglect the opportunity to see the &quot;new world&quot;."
+            android:textAlignment="viewStart"
+            android:textColor="@android:color/black"
+            android:textSize="14sp"/>
+
+    </LinearLayout>
+
+
+
+
+
+</ScrollView>
