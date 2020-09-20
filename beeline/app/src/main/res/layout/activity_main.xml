@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".MainActivity"
+>
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:background="@android:color/holo_orange_light">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:background="#FFEA00"
+                android:scaleType="centerCrop"
+                android:src="@drawable/bee">
+
+
+            </ImageView>
+
+      </RelativeLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/aldrich"
+            android:layout_marginStart="8dp"
+            android:layout_marginBottom="8dp"
+            android:text="О нас"
+            android:textColor="@android:color/black"
+            android:textSize="18sp">
+
+        </TextView>
+
+        <TextView
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:textColor="@android:color/black"
+            android:textSize="12sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:fontFamily="@font/caudex"
+            android:text="ООО «Скай Мобайл» (далее - Компания) осуществляет свою деятельность в рамках законодательства Кыргызской Республики и использует безопасные радиопередающие устройства, которые не оказывают негативного воздействия на здоровье людей и окружающую среду. Для этого, с привлечением аккредитованных лабораторий, на постоянной основе проводится контроль уровней электромагнитных полей, создаваемых приемо-передающим оборудованием базовых станций.">
+
+        </TextView>
+
+
+        <TextView
+            android:layout_marginStart="8dp"
+            android:layout_marginBottom="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Контакты"
+            android:textColor="@android:color/black"
+            android:textSize="18sp">
+        </TextView>
+
+        <LinearLayout
+            android:layout_marginStart="8dp"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp">
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:src="@drawable/pin">
+
+            </ImageView>
+
+            <TextView
+                android:textColor="@android:color/black"
+                android:textSize="12sp"
+                android:layout_marginStart="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="Адрес: г. Бишкек, ул. Ибраимова 115"
+                >
+
+            </TextView>
+
+        </LinearLayout>
+
+
+
+
+        <LinearLayout
+            android:layout_marginStart="8dp"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp">
+
+            <ImageView
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:src="@drawable/ind">
+
+            </ImageView>
+
+            <TextView
+                android:layout_marginStart="5dp"
+                android:textColor="@android:color/black"
+                android:textSize="12sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="Е-mail: office@beeline.kg"
+                >
+
+            </TextView>
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_marginStart="8dp"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp">
+
+            <ImageView
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:src="@drawable/faks">
+
+            </ImageView>
+
+            <TextView
+                android:layout_marginStart="5dp"
+                android:textColor="@android:color/black"
+                android:textSize="12sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="Факс: +996 (312) 900 585"
+                >
+
+            </TextView>
+
+        </LinearLayout>
+
+
+
+
+
+        <LinearLayout
+            android:layout_marginStart="8dp"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:src="@drawable/tel"
+                >
+
+            </ImageView>
+
+            <TextView
+                android:layout_marginBottom="8dp"
+                android:layout_marginStart="5dp"
+                android:textColor="@android:color/black"
+                android:textSize="12sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="Контакт-центр: *611 (для абонентов Beeline), +996 (775) 58 0611 (для абонентов О! и Megacom)."
+                >
+
+            </TextView>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</ScrollView>
